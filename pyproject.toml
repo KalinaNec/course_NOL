@@ -3,4 +3,9 @@ name = "my-first-project"
 version = "0.1.0"
 description = "First practice repository for learning Git and GitHub"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.2.0",
+    "matplotlib>=3.10.8",
+    "notebook>=7.5.5",
+    "numpy>=2.4.3",
+]
